@@ -9,6 +9,7 @@
 <body>
     <div id="app">
         <div>{{message}}</div>
+        <div> <button @click="plus">Count is: {{ count }}</button></div>
     </div>
 </body>
 </html>
@@ -16,11 +17,15 @@
     new Vue({
         el:'#app',
         data:{
+            count : 0,
             message:'hello'
         },
         methods:{
             greet(){
                 alert(this.message);
+            },
+            plus(){
+                this.count++;
             }
         }
     })
