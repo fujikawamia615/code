@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a,b,c
+        a=Number(prompt("a?"))
+        b=Number(prompt("b?"))
+        c=Number(prompt("c?"))
+        function calculateArea(a,b,c){
+            var p=(a+b+c)/2
+            var s= Math.sqrt(p*(p-a)*(p-b)*(p-c))
+            return s
+        }  
+        if ((a+b)>c) {
+            var d=calculateArea(a,b,c)
+            document.write(d)
+        }     
+        else{
+            document.write("not triangle")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

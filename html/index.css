@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+.container{
+    width:1000px;
+    height:600px;
+    background-color: antiquewhite;
+}
+.top{
+    height: 110px;
+}
+.logo,.solgan,.tel{
+    float: left;
+    height: 110px;
+}
+.logo{
+    padding-left: 40px;
+}
+.logo img{
+    margin-top: 29px;
+}
+.solgan{
+    width:550px;
+    font-size: 25px;
+    font-family: 宋体;
+    font-weight: bold;
+    text-align: center;
+    line-height: 110px;
+    word-spacing: 10px;
+}
+.nav li{
+   float: left;
+}

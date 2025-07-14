@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a=Number(prompt("a?"))
+        function validate(a){
+            if(a>=1 && a<=100){
+                return true
+            }
+            else{
+                return false
+            }
+        }
+        function convert(a){
+            if(a>=90 && a<=100) return "A"
+            if(a>=80 && a<=89) return "B"
+            if(a>=70 && a<=79) return "C"
+            if(a>=60 && a<=69) return "d"
+            if(a<60) return "X"
+        }
+        if(validate(a)){
+            document.write(convert(a))
+        }
+        else{
+            document.write("error")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
