@@ -11,7 +11,7 @@ typedef struct Contact {
     struct Contact *next;
 } Contact;
 Contact *head = NULL;
-
+//do some change here
 void addContact();
 void deleteContact();
 void changeContact();
